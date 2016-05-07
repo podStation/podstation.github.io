@@ -1,11 +1,45 @@
-<!doctype HTML>
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>podStation</title>
-		
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<meta name="description" content="The homepage of podStation">
+		<meta name="keywords" content="RSS,podcast,audio,feed">
+		<meta name="author" content="Guilherme Dellagustin">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
+	<style>
+		#header {
+			background-color: Gainsboro;
+			padding-left: 15px;
+			padding-bottom: 15px;
+			font-family: 'Segoe UI', Tahoma, sans-serif;
+		}
+	</style>
 	<body>
-		<h1>Welcome to the homepage of podStation</h1>
+		<div class="container">
+			<div id="header" class="row">
+				<div class="col-md-10">
+					<h1 id="mainTitle"><img src="images/rss-alt-3x.png"></img> podStation</h1>
+				</div>
+				<div class="col-md-1">
+					<a href="https://www.facebook.com/podStation/" target="_blank">Facebook</a>
+				</div>
+				<div class="col-md-1">
+					<a href="https://github.com/podStation/podStation" target="_blank">GitHub</a>
+				</div>
+			</div>
+			<h1>Welcome to the homepage of podStation</h1>
+			<p>podStation is a chrome extension to subscribe to podcasts and download/listen to its episodes.</p>
+			<p>Features list:</p>
+			<ul>
+  				<li>Save your feeds in your google account and synchronize across computers</li>
+				<li>Embedded audio player</li>
+				<li>Podcast search</li>
+				<li>Configurable auto update</li>
+			</ul>
+			<a class="btn btn-success btn-lg" href="https://chrome.google.com/webstore/detail/podstation/bpcagekijmfcocgjlnnhpdogbplajjfn" target="_blank">Install here</a>
+		</div>
 	</body>
 </html>
