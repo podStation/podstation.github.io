@@ -1,7 +1,7 @@
 'use strict';
 
 $(document).ready(function() {
-	if(typeof chrome !== 'undefined') {
+	if(typeof chrome !== 'undefined' && chrome.runtime) {
 		const EXTENSION_ID = 'bpcagekijmfcocgjlnnhpdogbplajjfn';
 		// const EXTENSION_ID = '<local ext id, for debugging and testing>';
 		chrome.runtime.sendMessage(EXTENSION_ID, {type: 'isInstalled'}, function(response) {

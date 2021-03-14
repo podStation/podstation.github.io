@@ -1,0 +1,30 @@
+{
+  "name": "podstation.github.io",
+  "version": "1.0.0",
+  "description": "Homepage of podStation",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d site"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/podStation/podstation.github.io.git"
+  },
+  "keywords": [
+    "podcast"
+  ],
+  "author": "Guilherme Dellagustin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/podStation/podstation.github.io/issues"
+  },
+  "homepage": "https://github.com/podStation/podstation.github.io#readme"
+}
