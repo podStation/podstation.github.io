@@ -17,4 +17,4 @@ podStation is an open source **podcast aggregator** packaged as a browser extens
 
 ### Experimental
 
-- **Value for value:** Pay value enabled podcasts while you listen, using bitcoins and the lightning network (support for LND nodes and LNPay)
+- **Value for value:** Pay value enabled podcasts while you listen, using bitcoins and the lightning network (support for [LND](https://github.com/podStation/podStation/blob/master/docs/release_notes/v1.33.0.md) nodes and [LNPay](https://github.com/podStation/podStation/blob/master/docs/release_notes/v1.34.0.md))
