@@ -1,4 +1,5 @@
 site_name: podStation
+repo_url: https://github.com/podStation/podStation
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
