@@ -20,7 +20,7 @@
 <script id="not-supported" type="text/x-handlebars-template">
     <p>Either your browser does not support podStation, or podStation is not installed yet.</p>
     <p>Install it and refresh the page to subscribe to your podcast.</p>
-    <a class="md-button md-button--primary" hef="https://chrome.google.com/webstore/detail/podstation/bpcagekijmfcocgjlnnhpdogbplajjfn" target="_blank">INSTALL HERE</a>
+    <a class="md-button md-button--primary" href="https://chrome.google.com/webstore/detail/podstation/bpcagekijmfcocgjlnnhpdogbplajjfn" target="_blank">INSTALL HERE</a>
 </script>
 <script id="missing-feed" type="text/x-handlebars-template">
     <p>Something went wrong: Missing url parameter "feedUrl"</p>
