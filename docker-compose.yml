@@ -3,7 +3,7 @@ services:
   mkdocs:
     # The image version should be manually kept in synch with the version used in .github/workflows/ci.yml
     # Avoiding a manualy synch could possibly be achieve with automation, but I don't think it is worth it
-    image: squidfunk/mkdocs-material:7.0.5
+    image: squidfunk/mkdocs-material:9.5.5
     ports:
     - "8000:8000"
     volumes:

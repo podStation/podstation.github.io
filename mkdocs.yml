@@ -9,6 +9,7 @@ theme:
   name: material
   features:
   - navigation.tabs
+  - content.action.edit
   palette:
     primary: black
     accent: teal
