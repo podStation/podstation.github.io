@@ -2,9 +2,10 @@ site_name: podStation
 repo_url: https://github.com/podStation/podStation
 markdown_extensions:
   - attr_list
+  - footnotes
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 theme:
   name: material
   features:
@@ -16,6 +17,8 @@ theme:
   icon: 
     logo: fontawesome/solid/rss
   favicon: images/favicon.ico
+plugins:
+  - blog
 extra:
   social:
     - icon: fontawesome/brands/mastodon
@@ -36,6 +39,7 @@ extra_javascript:
 - javascripts/subscribeInPodstation.js
 nav:
 - Home: index.md
+- blog/index.md
 - contacts.md
 - Contribute: https://github.com/podStation/.github/blob/master/CONTRIBUTING.md
 - Support: https://github.com/podStation/podStation#support-and-contact
