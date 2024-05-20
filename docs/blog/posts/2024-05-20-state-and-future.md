@@ -9,7 +9,7 @@ date: 2024-05-20
     If you did not open this page, it was automatically opened by podStation when it upgraded. Sorry for the disturbance.
 
 !!! note "TL;DR, Too long; Didn't read, Summary"
-    I'm unlikely to finish the required updates on podStation in time, to keep it operational after July 2024. It may be disabled in your browser automatically as early as July 2024. I suggest that you download your list of subscribed podcasts and start getting familiar with other players. This page gives more information on how to do that.
+    I'm unlikely to finish the required updates on podStation in time, to keep it operational after July 2024. It may be disabled in your browser automatically as early as July 2024. I still plan to work on it and bring it "back to life", if it is affected, in the near future. I suggest that you download your list of subscribed podcasts and start getting familiar with other players. This page gives more information on how to do that.
 
 Hello podStation users,
 
